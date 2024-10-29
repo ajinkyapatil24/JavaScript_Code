@@ -1,17 +1,14 @@
-//! var variable
-var name = "harry";
-var name = "spider";
+// var example
+var a = 10;
+a = 20;
+console.log(a); // Output: 20
 
-console.log(name); //spider
+// let example
+let b = 10;
+b = 20;
+console.log(b); // Output: 20
 
-//! let Variable
-// let name = "lenovo";
-// let name = "hp";
-
-// console.log(name); //SyntaxError
-
-//!const Variable
-// const id = "AJ24";
-// const id = "AP24";
-
-// console.log(id); //SyntaxError
+// const example
+const c = 10;
+// c = 20; // TypeError: Assignment to constant variable.
+console.log(c); // Output: 10
